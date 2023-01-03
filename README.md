@@ -25,3 +25,7 @@ Les projets shaders (et matériaux) et lumière ont été associé et transfér�
 - Mettre en place un systeme pour changer le matérial d'un objet (raycast, input de déclenchement et application d'un matérial différent)
 - Mettre en place un systeme pour changer le modèle d'un objet (raycast, input, systeme de destroy/spawn de meuble)
 
+## Eléments réalisés au 02/01/2022
+
+- une scéne avec une pièce contenant une table et des éléments de base (fruits, vase en verre, plante et bouilloire).
+- importation du systeme de FPS de base d'unity pour pouvoir se déplacer dedans.
