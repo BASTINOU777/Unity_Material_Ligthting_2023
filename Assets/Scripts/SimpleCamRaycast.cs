@@ -1,18 +1,29 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Reflection;
+using System.Security.Cryptography;
 using UnityEngine;
 
 public class SimpleCamRaycast : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    [SerializeField] private Image
+    private void Update()
     {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+       if (Physics.Raycast(transform.position.forward, out hit)) 
+        {
+            if (ProcessorArchitecture.collider.GetComponent<SwitchLight>()!= null)
+            {
+                _reticule color = color.green;
+            }
+            else
+            {
+                _reticule color = color.white;
+            }
+            else
+            {
+                _reticule color = color.white;
+            }
+        }
     }
 }
